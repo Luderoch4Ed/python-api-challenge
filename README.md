@@ -1,6 +1,6 @@
 # Python  API Challenge
 
-The purpose of the project creating a Python script that makes an API call to visualize the weather of 500+ cities across the world of varying distance from the equator. We will  accomplish this by utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+The purpose of the project creating a Python script that makes an API call to visualize the weather of 500+ cities across the world of varying distance from the equator. We will  accomplish this by utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and some basic understanding of world geograpghy to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
