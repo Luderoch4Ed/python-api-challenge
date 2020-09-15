@@ -1,6 +1,6 @@
-# python-api-challenge
+# Python  API Challenge
 
-The purpose of the project creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+The purpose of the project creating a Python script that makes an API call to visualize the weather of 500+ cities across the world of varying distance from the equator. We will  accomplish this by utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -20,10 +20,6 @@ Secondly, run linear regression on each relationship with the added dimension No
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-After each pair of plots explain what the linear regression is modeling such as any relationships you notice and any other analysis you may have.
-
-**Optional** You will be creating multiple linear regression plots. To optimize your code, write a function that creates the linear regression plots.
-
 The final notebook:
 
 * Randomly selects **at least** 500 unique (non-repeat) cities based on latitude and longitude.
@@ -33,7 +29,7 @@ The final notebook:
 
 ### Part II - VacationPy
 
-Now let's use your skills in working with weather data to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
+Use the weather data from the first section to plan future vacations. Use jupyter-gmaps and the Google Places API for this part of the assignment.
 
 * **Note:** if you having trouble displaying the maps try running `jupyter nbextension enable --py gmaps` in your environment and retry.
 
@@ -61,6 +57,7 @@ Now let's use your skills in working with weather data to plan future vacations.
 
 ## Prerequisites:
   * You will need to get a weather API key
+  * get a Google Places API
   * python
-    * Ensure all dependenies are install: Found at the start of python script
+    * Ensure all dependenies are installed: Found at the start of python script
   
